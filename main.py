@@ -6,6 +6,8 @@ df = sns.load_dataset('iris')
 st.write(df)
 st.write("Hello World ")
 st.title("My title")
+st.title("Another title")
+
 st.image("./images.jpg")
 
 st.number_input("Pick a number", 0, 10)
